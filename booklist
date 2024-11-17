@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Books Table</title>
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Top Books</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th>Sentiment</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Master of the Senate</td>
+                <td>Robert Caro</td>
+                <td>Political Biography</td>
+                <td>Outstanding</td>
+                <td>"Unmatched insight into power and the U.S. Senate."</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>The Power Broker</td>
+                <td>Robert Caro</td>
+                <td>Political Biography</td>
+                <td>Outstanding</td>
+                <td>"Simply the best nonfiction book. Go read it. Right now."</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Harry Potter and the Methods of Rationality</td>
+                <td>Eliezer Yudkowsky</td>
+                <td>Fantasy/Philosophy</td>
+                <td>Outstanding</td>
+                <td>"One of the greatest books ever written... must-read."</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Poor Economics</td>
+                <td>Abhijit Banerjee, Esther Duflo</td>
+                <td>Economics</td>
+                <td>Outstanding</td>
+                <td>"A stunning feeling... powerful lesson in self-skepticism."</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>CODE: The Hidden Language of Computer Hardware and Software</td>
+                <td>Charles Petzold</td>
+                <td>Computer Science</td>
+                <td>Outstanding</td>
+                <td>"Magnificent achievement... builds up an entire computer without it seeming over your head."</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>What It Takes: The Way to the White House</td>
+                <td>Richard Ben Cramer</td>
+                <td>Political Biography</td>
+                <td>Outstanding</td>
+                <td>"Never been a better exposition... incredible writing."</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>The Lifecycle of Software Objects</td>
+                <td>Ted Chiang</td>
+                <td>Science Fiction</td>
+                <td>Outstanding</td>
+                <td>"Read it! One of the great science fiction books of all time."</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>The Better Angels of Our Nature</td>
+                <td>Steven Pinker</td>
+                <td>History</td>
+                <td>Outstanding</td>
+                <td>"Compelling argument for the decline of violence over human history."</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Thinking, Fast and Slow</td>
+                <td>Daniel Kahneman</td>
+                <td>Psychology</td>
+                <td>Outstanding</td>
+                <td>"Foundational behavioral economics and cognitive psychology."</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Secrets</td>
+                <td>Daniel Ellsberg</td>
+                <td>Memoir</td>
+                <td>Outstanding</td>
+                <td>"A fantastic book... Ellsberg is an incredible writer, telling an incredible story."</td>
+            </tr>
+            <!-- Additional rows can be added here following the same pattern -->
+        </tbody>
+    </table>
+</body>
+</html>
