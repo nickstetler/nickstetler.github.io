@@ -1,24 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
-  <link rel="stylesheet" href="menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nicholas Stetler | Law & Policy</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-  </body>
-  <nav>
-  <ul>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="booklist.html">Booklist</a></li>
-  </ul>
-</nav>
-  <section>
-    <h2>About Me</h2>
-    <p>I'm a law student and I am interested in computers and public policy.</p>
-  </section>
-  <footer>
-    <p>&copy; 2024 My Personal Website</p>
-  </footer>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#booklist">Booklist</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I am a law student interested in computers and public policy.</p>
+    </section>
+    
+    <section id="blog">
+        <h1>Blog</h1>
+        <article>
+            <h2>What Robert Caro Taught Me About Power, Policy, and AI Governance</h2>
+            <p><strong>There is no great policy victory without a war for power.</strong> That is the central lesson of Robert Caro’s work—whether it is Robert Moses reshaping New York’s physical infrastructure or Lyndon Johnson reshaping its moral one. Caro doesn’t merely document history; he dissects the anatomy of power: how it is acquired, how it is maintained, and how it is used to bend institutions to one’s will.</p>
+            <p>Reading Caro’s biographies of Moses and Johnson, one quickly comes to see that policy success depends on the synthesis of three distinct elements:</p>
+            <ul>
+                <li><strong>Technically sound policy</strong>: It must work as intended and survive legal and bureaucratic scrutiny.</li>
+                <li><strong>Narrative coherence</strong>: It must resonate with people, fitting into a broader story about what our political community is and what it is for.</li>
+                <li><strong>Strategic realpolitik</strong>: It must be maneuvered through a terrain of incentives, opposition, alliances, and inertia.</li>
+            </ul>
+            <p>What Caro reveals is that policy change is not a function of good ideas alone. It is a function of good ideas embedded in persuasive narratives, executed by power-conscious actors.</p>
+        </article>
+    </section>
+    
+    <section id="booklist">
+        <h1>Booklist</h1>
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th>Sentiment</th>
+                <th>Notes</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Master of the Senate</td>
+                <td>Robert Caro</td>
+                <td>Political Biography</td>
+                <td>Outstanding</td>
+                <td>"Unmatched insight into power and the U.S. Senate."</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>The Power Broker</td>
+                <td>Robert Caro</td>
+                <td>Political Biography</td>
+                <td>Outstanding</td>
+                <td>"Simply the best nonfiction book. Go read it. Right now."</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email me at <a href="mailto:nicholas.stetler@siu.edu">nicholas.stetler@siu.edu</a></p>
+    </section>
+    
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; line-height: 1.6; padding: 20px; }
+        h1, h2 { font-family: Georgia, serif; color: #333; }
+        nav ul { background: #333; padding: 10px; list-style: none; display: flex; justify-content: left; }
+        nav ul li { margin-right: 15px; }
+        nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+        section { margin-bottom: 40px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        table, th, td { border: 1px solid black; padding: 8px; }
+        th { background: #f4f4f4; }
+    </style>
+    
 </body>
 </html>
