@@ -1,50 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">    
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nicholas Stetler</title>
-    <style>
-body {
-    font-family: Georgia, serif;
-    line-height: 1.7;
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nicholas Stetler | Law & Policy</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: "Garamond", "Georgia", "Palatino Linotype", "Book Antiqua", serif;
+      max-width: 700px;
+      margin: 60px auto;
+      line-height: 1.75;
+      font-size: 17px;
+      background-color: #fdfdfd;
+      color: #111;
+      padding: 20px;
+    }
 
-h1, h2 {
-    font-family: Georgia, serif;
-    font-weight: bold;
-}
+    nav ul {
+      background: #222;
+      padding: 10px 0;
+      list-style: none;
+      display: flex;
+      justify-content: left;
+      margin: 0 0 40px 0;
+    }
 
-h1 {
-    font-size: 28px;
-}
+    nav ul li {
+      margin: 0 20px;
+    }
 
-h2 {
-    font-size: 24px;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-}
+    nav ul li a {
+      color: #eee;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+    }
 
-p {
-    font-size: 18px;
-}
-    </style>
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2 {
+      font-family: "Garamond", "Georgia", "Palatino", serif;
+      font-weight: normal;
+      color: #222;
+      margin-top: 1.5em;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    article ul {
+      padding-left: 1.5em;
+      list-style-type: disc;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    a {
+      color: #005999;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-    <section id="about">
-        <h1>About me</h1>
-        <p>I am a law student interested in computers, old books, and public policy.</p>
-    </section>
-     <section id="blog">
-         <h1><a href="blog.html">Blog</a></h1>
-    <section id="Contact">
-        <h1>Contact</h1>
-        <p>nickstetler@gmail</p>
-    </section>
-    <section>
-        <h1>Curriculum Vitæ</h1>
-         <a href="CV_NICHOLAS_STETLER.pdf" target="_blank">Curriculum Vitæ</a>
-    </section>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#blog">Thoughts</a></li>
+      <li><a href="#booklist">Books</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <section id="about">
+    <h1>About Me</h1>
+    <p>I am a law student interested in computers and public policy.</p>
+  </section>
+  
+  <section id="blog">
+    <h1>Thoughts</h1>
+    <article>
+      <h2>What Robert Caro Taught Me About Power, Policy, and AI Governance</h2>
+      <p><strong>There is no great policy victory without a war for power.</strong> That is the central lesson of Robert Caro’s work—whether it is Robert Moses reshaping New York’s physical infrastructure or Lyndon Johnson reshaping its moral one. Caro doesn’t merely document history; he dissects the anatomy of power: how it is acquired, how it is maintained, and how it is used to bend institutions to one’s will.</p>
+      <p>Reading Caro’s biographies of Moses and Johnson, one quickly comes to see that policy success depends on the synthesis of three distinct elements:</p>
+      <ul>
+        <li><strong>Technically sound policy</strong>: It must work as intended and survive legal and bureaucratic scrutiny.</li>
+        <li><strong>Narrative coherence</strong>: It must resonate with people, fitting into a broader story about what our political community is and what it is for.</li>
+        <li><strong>Strategic realpolitik</strong>: It must be maneuvered through a terrain of incentives, opposition, alliances, and inertia.</li>
+      </ul>
+      <p>What Caro reveals is that policy change is not a function of good ideas alone. It is a function of good ideas embedded in persuasive narratives, executed by power-conscious actors.</p>
+    </article>
+  </section>
+  
+  <section id="booklist">
+    <h1>Books</h1>
+    <table>
+      <tr>
+        <th>Rank</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Sentiment</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><em>Master of the Senate</em></td>
+        <td>Robert Caro</td>
+        <td>Political Biography</td>
+        <td>Outstanding</td>
+        <td>“Unmatched insight into power and the U.S. Senate.”</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><em>The Power Broker</em></td>
+        <td>Robert Caro</td>
+        <td>Political Biography</td>
+        <td>Outstanding</td>
+        <td>“Simply the best nonfiction book. Go read it. Right now.”</td>
+      </tr>
+    </table>
+  </section>
+  
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>Email me at <a href="mailto:nicholas.stetler@siu.edu">nicholas.stetler@siu.edu</a></p>
+  </section>
+
+</body>
 </html>
