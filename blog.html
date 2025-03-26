@@ -1,16 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Thoughts</title>
-    <link rel="stylesheet" href="menu.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nicholas Stetler | Law & Policy</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: "Garamond", "Georgia", "Palatino Linotype", "Book Antiqua", serif;
+      max-width: 700px;
+      margin: 60px auto;
+      line-height: 1.75;
+      font-size: 17px;
+      background-color: #fdfdfd;
+      color: #111;
+      padding: 20px;
+    }
+
+    nav ul {
+      background: #222;
+      padding: 10px 0;
+      list-style: none;
+      display: flex;
+      justify-content: left;
+      margin: 0 0 40px 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: #eee;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      letter-spacing: 0.5px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2 {
+      font-family: "Garamond", "Georgia", "Palatino", serif;
+      font-weight: normal;
+      color: #222;
+      margin-top: 1.5em;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    article ul {
+      padding-left: 1.5em;
+      list-style-type: disc;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    a {
+      color: #005999;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <section id="blog">
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Thoughts</a></li>
+      <li><a href="booklist.html">Books</a></li>
+    </ul>
+  </nav>
+  
+  <section id="about">
     <h1>Thoughts</h1>
-    <article>
-    </article>
+    <p></p>
   </section>
+  
+  
+  <section id="contact">
+    <h1>Contact</h1>
+    <p>Email me at <a href="mailto:nicholas.stetler@siu.edu">nicholas.stetler@siu.edu</a></p>
+  </section>
+
 </body>
 </html>
